@@ -56,23 +56,20 @@ Commit your staged changes with a message:
 
 git commit -m "Your commit message"
 
-5. Create a New Branch
+5. Push Changes to Remote Repository
+Push your local commits to the remote repository (e.g., GitHub):
+
+git push origin main
+
+enter user name and password here
+
+6. Create a New Branch
 Create and switch to a new branch for feature development:
 
 git branch <branch-name>    # Create new branch
 git checkout <branch-name>  # Switch to new branch
 
-6. Merge Branches
-Merge the feature branch back into the main branch:
 
-git checkout main           # Switch to main branch
-git merge <branch-name>     # Merge your feature branch into main
-
-7. Push Changes to Remote Repository
-Push your local commits to the remote repository (e.g., GitHub):
-
-git push origin main
-
-8. Pull Updates from Remote
+7. Pull Updates from Remote
 Fetch and integrate changes from the remote repository:
 git pull origin main
