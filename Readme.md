@@ -1,6 +1,6 @@
 # Prem Singh's Developer Journey
 
-Welcome to my personal project repository! I am Prem Singh, an aspiring web developer currently learning a variety of technologies to build modern web applications. Below are the key areas I am focusing on, along with brief descriptions of each.
+Welcome to my personal project repository! I am **Prem Singh**, an aspiring web developer currently learning a variety of technologies to build modern web applications. Below are the key areas I am focusing on, along with brief descriptions of each.
 
 ## Topics I'm Learning:
 
@@ -32,44 +32,28 @@ Python is a versatile programming language, and I am exploring its basics. I am 
 MySQL is a relational database management system. I am learning how to design and manage databases using SQL queries for CRUD operations (Create, Read, Update, Delete) and complex queries like JOINs and transactions.
 
 ### 10. Git Commands
-Git is a version control system. I am learning essential commands to collaborate effectively on projects.
+Git is a version control system. I am learning essential commands to collaborate effectively on projects. Below is a complete example workflow that includes all necessary Git commands:
 
-#### Git Example Workflow:
-1. **Initialize a Repository**  
-   Initialize a new Git repository in your project folder:  
-   ```bash
-   git init
+```bash
+# 1. Initialize a Repository
+git init
 
-2. Check Status
-View the status of your repository (to see untracked files):
-
+# 2. Check Status
 git status
 
-3. Add Files to Staging
-Add specific files or all files to the staging area:
-
+# 3. Add Files to Staging
 git add <file-name>    # Adds specific file
 git add .              # Adds all files in the current directory
 
-4. Commit Changes
-Commit your staged changes with a message:
-
+# 4. Commit Changes
 git commit -m "Your commit message"
 
-5. Push Changes to Remote Repository
-Push your local commits to the remote repository (e.g., GitHub):
+# 5. Push Changes to Remote Repository
+git push origin main   # Enter your username and password when prompted
 
-git push origin main
+# 6. Create a New Branch
+git branch <branch-name>    # Create a new branch
+git checkout <branch-name>  # Switch to the new branch
 
-enter user name and password here
-
-6. Create a New Branch
-Create and switch to a new branch for feature development:
-
-git branch <branch-name>    # Create new branch
-git checkout <branch-name>  # Switch to new branch
-
-
-7. Pull Updates from Remote
-Fetch and integrate changes from the remote repository:
+# 7. Pull Updates from Remote
 git pull origin main
