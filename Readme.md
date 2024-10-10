@@ -28,6 +28,18 @@ Understanding data structures like arrays, stacks, queues, and linked lists is c
 ### 8. Python
 Python is a versatile programming language, and I am exploring its basics. I am learning about syntax, data types, control structures, and functions to build basic scripts and algorithms.
 
+```bash
+#1 check python version
+
+python3 --version
+
+#2. run python program
+
+go to folder where program is saved then run 
+
+python3 01program.py
+```
+
 ### 9. MySQL Database
 MySQL is a relational database management system. I am learning how to design and manage databases using SQL queries for CRUD operations (Create, Read, Update, Delete) and complex queries like JOINs and transactions.
 
